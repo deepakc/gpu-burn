@@ -50,9 +50,9 @@ specific version of the cuda toolkit (default is
 
 `make CUDAPATH=/usr/local/cuda-<version>`
 
-CUDAVERSION can be specified to compile against a specific CUDA Version
+CUDA_VERSION can be specified to compile against a specific CUDA Version
 
-`make CUDAVERSION=1301`
+`make CUDA_VERSION=1301`
 
 CCPATH can be specified to point to a specific gcc (default is
 /usr/bin):
